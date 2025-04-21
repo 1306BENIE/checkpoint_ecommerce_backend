@@ -25,8 +25,8 @@ router.post("/create-checkout-session", async (req, res) => {
         },
         quantity: item.quantity,
       })),
-      success_url: "http://localhost:5173/success",
-      cancel_url: "http://localhost:5173/cancel",
+      success_url: "checkpointecommerce.netlify.app/success",
+      cancel_url: "checkpointecommerce.netlify.app/cancel",
     });
 
     res.json({ id: session.id });
