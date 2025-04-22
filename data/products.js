@@ -32,3 +32,5 @@ const productData = [
       "https://checkpoint-ecommerce-backend.onrender.com/assets/images/ecran_27_pouces.jpg",
   },
 ];
+
+export default productData;
