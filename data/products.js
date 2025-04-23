@@ -123,7 +123,7 @@ const productData = [
     id: "16",
     name: "Carte graphique GTX 1660",
     description: "Excellente performance pour le gaming 1080p.",
-    price: 189,
+    price: 80,
     image:
       "https://checkpoint-ecommerce-backend.onrender.com/assets/images/gtx_1660.jpg",
   },
@@ -131,7 +131,7 @@ const productData = [
     id: "17",
     name: "Processeur AMD Ryzen 5",
     description: "6 cœurs, 12 threads – parfait pour le multitâche.",
-    price: 149.99,
+    price: 120.99,
     image:
       "https://checkpoint-ecommerce-backend.onrender.com/assets/images/ryzen5.jpg",
   },
