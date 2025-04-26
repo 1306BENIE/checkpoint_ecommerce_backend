@@ -21,12 +21,12 @@ router.post("/create-checkout-session", async (req, res) => {
             name: item.name,
             description: item.description,
           },
-          unit_amount: Math.round(item.price * 100), // € → cents
+          unit_amount: Math.round(item.price * 100),
         },
         quantity: item.quantity,
       })),
-      success_url: "checkpointecommerce.netlify.app/success",
-      cancel_url: "checkpointecommerce.netlify.app/cancel",
+      success_url: "https://checkpointecommerce.netlify.app/success",
+      cancel_url: "https://checkpointecommerce.netlify.app/cancel",
     });
 
     res.json({ id: session.id });
