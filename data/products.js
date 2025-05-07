@@ -75,7 +75,7 @@ const productData = [
     id: "10",
     name: "Disque dur externe 1To",
     description: "Stockage portable USB 3.0.",
-    price: 49.99,
+    price: 29.99,
     image:
       "https://checkpoint-ecommerce-backend.onrender.com/assets/images/disque_dur.jpg",
   },
